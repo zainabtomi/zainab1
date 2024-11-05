@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: bor
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 0auto;
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 1em;
+    color: #242323;
+    margin-bottom: 30px;
+}
+
+.social-link a {
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
